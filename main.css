@@ -2,16 +2,29 @@ h1 {
   font-family: "Sacramento", cursive;
   font-weight: 400;
   font-style: normal;
-font-size: 3em;
+font-size: 4em;
 color: #374f59;
 }
 
 
 h2 {
 	color: #3d4a55;
+
+  font-family: "Josefin Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
 }
 
 p {
 	color: #3d4a55;
-}
 
+  font-family: "Josefin Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+}
+img {
+	height: 200px
+}
