@@ -1,9 +1,11 @@
 h1 {
+	color: #3d4a55;
+
   font-family: "Sacramento", cursive;
   font-weight: 400;
   font-style: normal;
-font-size: 4em;
-color: #374f59;
+  font-size: 70px;
+
 }
 
 
@@ -14,20 +16,21 @@ h2 {
   font-optical-sizing: auto;
   font-weight: 800;
   font-style: normal;
+
 }
 
 p {
 	color: #3d4a55;
+	line-height: 17px;
 
   font-family: "Josefin Slab", serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 
-
-line-height: 17px;
-  
 }
+
+
 img {
 	height: 200px
 }
