@@ -1,43 +1,67 @@
+body{
+	background: #617e89;
+
+}
+
 #body{
+	background: #cfd7d4;
+	width: 75%;
+	margin: 0 auto;
+	height: 100%;
+	padding: 20px;
+
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-auto-rows: minmax(200px, auto)
-	grid-column-gap:10px;
+	grid-column-gap: 10px;
 	grid-row-gap: 10px;
+	justify-content: center;
+	align-items: center;
+
 }
+
+
 
 #intro{
-	grid-column: 1/3
+	grid-column: 1/3;
+	padding: 5px;
 }
 
+
 #intro-pic{
-	grid-column: 3/4
+	grid-column: 3/4;
+	text-align: center;
+	padding: 5px;
+	background-color: #9cb0b2;
 }
+
 
 #Hobies{
 	grid-column: 1/4;
 }
+
+
 #create{
 	grid-column: 1/3
-	grid-row:4/4;
 }
 
 #bo{
 	grid-column: 2/3
-	grid-row: 4/4;
+	grid-row: 3/4;
 }
+
 #boat{
 	grid-column: 3/4;
-	grid-row: 4/4;
+	grid-row: 3/4;
 }
 
 h1 {
 	color: #3d4a55;
 
-  font-family: "Sacramento", cursive;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 70px;
+	font-family: "Sacramento", cursive;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 70px;
 
 }
 
@@ -45,10 +69,10 @@ h1 {
 h2 {
 	color: #3d4a55;
 
-  font-family: "Josefin Slab", serif;
-  font-optical-sizing: auto;
-  font-weight: 800;
-  font-style: normal;
+	font-family: "Josefin Slab", serif;
+	font-optical-sizing: auto;
+	font-weight: 800;
+	font-style: normal;
 
 }
 
@@ -56,10 +80,10 @@ p {
 	color: #3d4a55;
 	line-height: 17px;
 
-  font-family: "Josefin Slab", serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+	font-family: "Josefin Slab", serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
 
 }
 
