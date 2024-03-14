@@ -21,12 +21,10 @@ body{
 }
 
 
-
 #intro{
 	grid-column: 1/3;
 	padding: 5px;
 }
-
 
 #intro-pic{
 	grid-column: 3/4;
@@ -35,9 +33,16 @@ body{
 	background-color: #9cb0b2;
 }
 
+#intro-pic img{
+	height: 400px;
+}
+
+#pic-hob{
+	grid-column: 1/2;
+}
 
 #Hobies{
-	grid-column: 1/4;
+	grid-column: 2/4;
 }
 
 
@@ -89,5 +94,5 @@ p {
 
 
 img {
-	height: 200px
+height: 200px;
 }
